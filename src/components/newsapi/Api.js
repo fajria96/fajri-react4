@@ -26,7 +26,7 @@ export const GetNews = () => {
               <p className="card-content">{article.title}</p>
               <a href={article.url}>
                 <Button variant="primary" align="center">
-                  Selanjutnya
+                  Read more
                 </Button>
               </a>
             </div>
