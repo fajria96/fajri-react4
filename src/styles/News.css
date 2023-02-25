@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background: white;
+  width: fit-content;
+  margin-bottom: 50px;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.news {
+  padding: 20px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.card {
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 8);
+  max-width: 100%;
+  padding: 10px;
+  border: 1px dashed gray;
+}
+
+input[type=text] {
+  width: 30%;
+  height: 50px;
+  background-color: white;
+  background-image: url('../assets/images/search_icon.png');
+  border-color: lightgray;
+  border-radius: 8px;
+  background-position: 10px 10px;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 50%;
+}
+
+.input-box {
+  padding-left: 28px;
+}
+
+.button-1 {
+  display: flex;
+  justify-content: center;
+}
